@@ -1453,8 +1453,8 @@ MELF 0.10 W</description>
 <wire x1="2" y1="-3" x2="-2" y2="-3" width="0.127" layer="21"/>
 </package>
 <package name="LPS4018">
-<smd name="1" x="-1.75" y="0" dx="0.9" dy="2.8" layer="1"/>
-<smd name="2" x="1.75" y="0" dx="0.9" dy="2.8" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="1.6" dy="4.2" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.6" dy="4.2" layer="1"/>
 <text x="0" y="0.3175" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.3175" size="1.016" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="-1.4" y1="-2" x2="-2" y2="-1.4" width="0.127" layer="21"/>
@@ -2062,8 +2062,8 @@ adjustable filter coil, type K</description>
 <part name="P-1" library="00Supply" deviceset="-5V" device=""/>
 <part name="GND1" library="00Supply" deviceset="GND" device=""/>
 <part name="C1" library="00Capacitor" deviceset="C" device="C0805" value="18p"/>
-<part name="C2" library="00Capacitor" deviceset="C_POLARIZED" device="SMC_B" value="33u"/>
-<part name="C3" library="00Capacitor" deviceset="C_POLARIZED" device="SMC_B" value="33u"/>
+<part name="C2" library="00Capacitor" deviceset="C_POLARIZED" device="SMC_B" value="47u"/>
+<part name="C3" library="00Capacitor" deviceset="C_POLARIZED" device="SMC_B" value="47u"/>
 <part name="IC2" library="00Amplifier" deviceset="AD603" device=""/>
 <part name="R1" library="00Resistor" deviceset="RESISTOR" device="R0805" value="100k"/>
 <part name="R2" library="00Resistor" deviceset="TRIMMER" device="3224X" value="10k"/>
@@ -2082,8 +2082,8 @@ adjustable filter coil, type K</description>
 <part name="C5" library="00Capacitor" deviceset="C" device="C0805" value="100n"/>
 <part name="L1" library="00Inductor" deviceset="INDUCTOR" device="0805" value="880n"/>
 <part name="R7" library="00Resistor" deviceset="RESISTOR" device="R0805" value="15k"/>
-<part name="L2" library="00Inductor" deviceset="INDUCTOR" device="LPS4018"/>
-<part name="L3" library="00Inductor" deviceset="INDUCTOR" device="LPS4018"/>
+<part name="L2" library="00Inductor" deviceset="INDUCTOR" device="LPS4018" value="100uH"/>
+<part name="L3" library="00Inductor" deviceset="INDUCTOR" device="LPS4018" value="100uH"/>
 <part name="P+3" library="00Supply" deviceset="+5V" device=""/>
 <part name="P-2" library="00Supply" deviceset="-5V" device=""/>
 <part name="GND7" library="00Supply" deviceset="GND" device=""/>
